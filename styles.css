@@ -9,16 +9,16 @@ a {
 a:hover {
     color:#072AC8
   }
-  .header{
+.header{
     justify-content: center;
-    display: none !important;
+    display: none;
 }
 
 /* //// TABLET /// */
 @media (min-width: 769px) and (max-width: 1023px) {
     .header{
+        display: flex;
         justify-content: center;
-        display: inline !important;
     }
     .navbar{
         margin-top: 50px;
@@ -27,7 +27,7 @@ a:hover {
     }
     .menu{
         justify-content: space-between;
-        width: 25%;
+        width: 30%;
         align-items: center;
     }
     .logo{
@@ -46,7 +46,6 @@ a:hover {
 
     .header{
         justify-content: center;
-        display: inline !important;
         display: flex;
     }
     .navbar{
