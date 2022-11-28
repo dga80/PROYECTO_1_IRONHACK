@@ -14,8 +14,22 @@ a:hover {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* //// TABLET /// */
 @media (min-width: 769px) and (max-width: 1023px) {
+    .burgerHeader{
+        display: none;
+    }
     .header{
         display: flex;
         justify-content: center;
@@ -43,6 +57,9 @@ a:hover {
 /* /// DESKTOP //// */
 
 @media (min-width:1024px){
+    .burgerHeader{
+        display: none;
+    }
 
     .header{
         justify-content: center;
