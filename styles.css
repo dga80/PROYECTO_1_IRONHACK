@@ -9,10 +9,35 @@ a {
 a:hover {
     color:#072AC8
   }
-
+  .header{
+    justify-content: center;
+    display: none !important;
+}
 
 /* //// TABLET /// */
 @media (min-width: 769px) and (max-width: 1023px) {
+    .header{
+        justify-content: center;
+        display: inline !important;
+    }
+    .navbar{
+        margin-top: 50px;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .menu{
+        justify-content: space-between;
+        width: 25%;
+        align-items: center;
+    }
+    .logo{
+        height: 21px;
+        align-items: center;
+        padding: 9px 0 0 0;
+    }
+    .buttonContact{
+        align-items: center;
+    }
 
 }
 /* /// DESKTOP //// */
@@ -21,6 +46,8 @@ a:hover {
 
     .header{
         justify-content: center;
+        display: inline !important;
+        display: flex;
     }
     .navbar{
         margin-top: 50px;
