@@ -100,56 +100,62 @@
         </div>
       </section>
 
-      <section class="reviews flex margin-index">
-        <h3>Hear What Our Clients Have to Say</h3>
-        <h4>
-          Circle helped us through every stage of our startup. We really enjoyed
-          working with you
-        </h4>
-        <h5>Kristin Watson</h5>
-        <h6>Booking.com</h6>
-        <img src="./images/testimonial-section/memoji-1.png" alt="emoticon-1" />
-        <img src="./images/testimonial-section/memoji-2.png" alt="emoticon-2" />
-        <img src="./images/testimonial-section/memoji-3.png" alt="emoticon-3" />
-        <img src="./images/testimonial-section/memoji-4.png" alt="emoticon-4" />
-        <img src="./images/testimonial-section/profile.png" alt="profile_pic" />
+      <section class="reviews flex">
+        <div class="reviews-column flex">
+          <img src="./images/testimonial-section/memoji-1.png" alt="emoticon-1" />
+          <img src="./images/testimonial-section/memoji-2.png" alt="emoticon-2" />
+        </div>
+        <div class = "reviews-center-column">
+          <h3>Hear What Our Clients Have to Say</h3>
+          <h4>
+            Circle helped us through every stage of our startup. We really enjoyed
+            working with you
+          </h4>
+          <h5>Kristin Watson</h5>
+          <h6>Booking.com</h6>
+          <img src="./images/testimonial-section/profile.png" alt="profile_pic" />
+        </div>
+        <div class = "reviews-column">
+          <img src="./images/testimonial-section/memoji-3.png" alt="emoticon-3" />
+          <img src="./images/testimonial-section/memoji-4.png" alt="emoticon-4" />
+        </div>
       </section>
 
-      <section class="services margin-index">
-        <h2>Our Services</h2>
-        <div class = "services-container flex">
-          <article class="">
+   
++     <h2>Our Services</h2>  
+      <section class="services flex">             
+          <article class="services-container">
             <img src="./images/services-section/icons/1.svg" alt="" />
-            <h2>User Interface Design</h2>
+            <h4>User Interface Design</h4>
             <p>
               Circle provides you with a stunning user interface design that is
               accessible to everyone.
             </p>
             <a href="">Learn more</a>
           </article>
-          <article class="">
+          <article class="services-container">
             <img src="./images/services-section/icons/2.svg" alt="" />
-            <h2>User Experience Design</h2>
+            <h4>User Experience Design</h4>
             <p>
               Circle always focuses on delivering the best user experience to
               your customers.
             </p>
             <a href="">Learn more</a>
           </article>
-          <article class="">
+          <article class="services-container">
             <img src="./images/services-section/icons/3.svg" alt="" />
-            <h2></h2>
+            <h4>Application Development</h4>
             <p>
               We develop high-quality mobile and web applications using the
               latest technology stack.
             </p>
             <a href="">Learn more</a>
-          </article>
-        </div>
+          </article>        
       </section>
+
       <section class="questions">
         <div>
-          <h2>Do you have any questions?</h2>
+          <h3>Do you have any questions?</h3>
           <h5>Les us help you!</h5>
           <input
             type="email"
@@ -168,12 +174,16 @@
         <p class="company-address">Illinois 85486,</p>
       </div>
       <div class="footer-right-side flex">
-        <a href="team">Team</a>
-        <a href="services">Services</a>
-        <a href="about-us">About us</a>
+        <div class = "link-container">
+        <a class = "link" href="team">Team</a>
+        <a class = "link" href="services">Services</a>
+        <a class = "link" href="about-us">About us</a>
+       </div>
+       <div class="link-container">
         <a href="press">Press</a>
         <a href="projects">Projects</a>
         <a href="privacy-policy">Privacy Policy</a>
+       </div>
       </div>
     </footer>
   </body>
