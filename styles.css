@@ -19,14 +19,33 @@ img{
     display :flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10% 0 10%;
+    
 }
 .questions{    
     background-color: yellow;
     text-align: center;
    
 }
-.head-1-img{
-    width: 85%;
+.margin-index{
     margin: 0 7.5% 0 7.5%;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.head-1 h3{
+
+}
+.head-1 h5{
+    
+}
+.head-1 p{
+    
+}
+.head-1 img{
+     width: 100%;
+}
+
+.text_container
+
+
