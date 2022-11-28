@@ -87,3 +87,29 @@ img{
     width: 85%;
     margin: 0 7.5% 0 7.5%;
 }
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-article {
+    width: 85%;
+    padding: 0.85rem 1.5rem 1.5rem 1.5rem;
+}
+
+.projects-article-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-article-info h3 {
+    display: block;
+}
+
+
+img {
+    width: 30rem;
+}
+
