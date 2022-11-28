@@ -13,6 +13,11 @@ a:hover {
     justify-content: center;
     display: none !important;
 }
+.margin-index{
+    width: 85%;
+    margin: 0 7.5% 0 7.5%;
+}
+
 
 /* //// TABLET /// */
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -69,21 +74,57 @@ a:hover {
     }
 
 }
-
-.footer{
-    display :flex;
+.brands {
+    justify-content: space-around;
+    }
+.brands img{
+    padding:5%
+}
+.reviews{
+    flex-direction: column;
+    background-color: #292E47;
+}
+.reviews img{
+    width: 100px;
+}
+.text_container{
     justify-content: space-between;
-    align-items: center;
-    margin: 0 10% 0 10%;
+}
+.footer{
+    justify-content: space-between;
+    align-items: center;    
+}
+.footer img{
+    width : 15vh;
+    padding: 5% 5% 5% 0;    
+}
+.footer-left-side{
+    width : 35%;
+}
+.footer-right-side {
+    justify-content: space-around;
+    max-width: 40%
+    }
+.footer-right-side a{
+    max-width: 20%;
+    padding: 20px;
 }
 .questions{    
     background-color: yellow;
     text-align: center;
-   
+    padding: 6%;   
 }
-.head-1-img{
-    width: 85%;
-    margin: 0 7.5% 0 7.5%;
+.questions h5{
+    margin: 5%;
+}
+.head-1 img{
+    width: 100%;
+ 
+}
+.services-container{
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .projects {
@@ -107,7 +148,5 @@ a:hover {
 }
 
 
-img {
-    width: 30rem;
-}
+
 
