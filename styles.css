@@ -1,0 +1,14 @@
+a {
+    all: unset;
+}
+a:hover {
+    color:#072AC8
+  }
+
+.navbar{
+    justify-content: space-around;
+    width: 100%;
+}
+.menu{
+    width: 20%;
+}

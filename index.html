@@ -11,69 +11,129 @@
       rel="stylesheet"
     />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link href="./font&colors.css" rel="stylesheet" type="text/css" />
     <title>Homepage</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <section class="brands"></section>
-    <section class="projects">
-      <h2>Recent Projects</h2>
-      <div class="">
-        <article class="">
-          <img src="./images/projects-section/1.jpg" alt="" />
-          <h3>Simplify</h3>
-          <p>UI Design & App Development</p>
-          <a href="">Learn more</a>
-        </article>
-        <article class="">
-          <img src="./images/projects-section/2.jpg" alt="" />
-          <h3>Dashcoin</h3>
-          <p>Web Development</p>
-          <a href="">Learn more</a>
-        </article>
-        <article class="">
-          <img src="./images/projects-section/3.jpg" alt="" />
-          <h3>Vectorify</h3>
-          <p>User Experience Design</p>
-          <a href="">Learn more</a>
-        </article>
+    <header>
+      <div class="navbar flex">
+        <div clas="logo">
+          <img src="images/logos/circle.svg" alt="logoCircle" />
+        </div>
+        <div class="menu" style="cursor: pointer">
+          <a href="#" class="color6">Home</a>
+          <a href="#" class="color6">Project</a>
+          <a href="#" class="color6">Services</a>
+        </div>
+        <div class="buttonContact">Contact Us</div>
       </div>
-    </section>
-    <section class="reviews"></section>
-    <section class="services">
-      <h2>Our Services</h2>
-      <div>
-        <article class="">
-          <img src="./images/services-section/icons/1.svg" alt="" />
-          <h2>User Interface Design</h2>
-          <p>
-            Circle provides you with a stunning user interface design that is
-            accessible to everyone.
-          </p>
-          <a href="">Learn more</a>
-        </article>
-        <article class="">
-          <img src="./images/services-section/icons/2.svg" alt="" />
-          <h2>User Experience Design</h2>
-          <p>
-            Circle always focuses on delivering the best user experience to your
-            customers.
-          </p>
-          <a href="">Learn more</a>
-        </article>
-        <article class="">
-          <img src="./images/services-section/icons/3.svg" alt="" />
-          <h2></h2>
-          <p>
-            We develop high-quality mobile and web applications using the latest
-            technology stack.
-          </p>
-          <a href="">Learn more</a>
-        </article>
+    </header>
+    <main>
+      <section></section>
+      <section class="brands">
+        <img src="./images/logos/airbnb-logo.svg" alt="Airbnb logo" />
+        <img src="./images/logos/google-logo.svg" alt="Google logo" />
+        <img src="./images/logos/microsoft-logo.svg" alt="Microsoft logo" />
+        <img src="./images/logos/fedex-logo.svg" alt="Fedex logo" />
+        <img src="./images/logos/amazon-logo.svg" alt="Amazon logo" />
+      </section>
+      <section class="projects">
+        <h2>Recent Projects</h2>
+        <div class="">
+          <article class="">
+            <img src="./images/projects-section/1.jpg" alt="" />
+            <h3>Simplify</h3>
+            <p>UI Design & App Development</p>
+            <a href="">Learn more</a>
+          </article>
+          <article class="">
+            <img src="./images/projects-section/2.jpg" alt="" />
+            <h3>Dashcoin</h3>
+            <p>Web Development</p>
+            <a href="">Learn more</a>
+          </article>
+          <article class="">
+            <img src="./images/projects-section/3.jpg" alt="" />
+            <h3>Vectorify</h3>
+            <p>User Experience Design</p>
+            <a href="">Learn more</a>
+          </article>
+        </div>
+      </section>
+      <section class="reviews">
+        <h3>Hear What Our Clients Have to Say</h3>
+        <h4>
+          Circle helped us through every stage of our startup. We really enjoyed
+          working with you
+        </h4>
+        <h5>Kristin Watson</h5>
+        <h6>Booking.com</h6>
+        <img src="./images/testimonial-section/memoji-1.png" alt="emoticon-1" />
+        <img src="./images/testimonial-section/memoji-2.png" alt="emoticon-2" />
+        <img src="./images/testimonial-section/memoji-3.png" alt="emoticon-3" />
+        <img src="./images/testimonial-section/memoji-4.png" alt="emoticon-4" />
+        <img src="./images/testimonial-section/profile.png" alt="profile_pic" />
+      </section>
+      <section class="services">
+        <h2>Our Services</h2>
+        <div>
+          <article class="">
+            <img src="./images/services-section/icons/1.svg" alt="" />
+            <h2>User Interface Design</h2>
+            <p>
+              Circle provides you with a stunning user interface design that is
+              accessible to everyone.
+            </p>
+            <a href="">Learn more</a>
+          </article>
+          <article class="">
+            <img src="./images/services-section/icons/2.svg" alt="" />
+            <h2>User Experience Design</h2>
+            <p>
+              Circle always focuses on delivering the best user experience to
+              your customers.
+            </p>
+            <a href="">Learn more</a>
+          </article>
+          <article class="">
+            <img src="./images/services-section/icons/3.svg" alt="" />
+            <h2></h2>
+            <p>
+              We develop high-quality mobile and web applications using the
+              latest technology stack.
+            </p>
+            <a href="">Learn more</a>
+          </article>
+        </div>
+      </section>
+      <section class="questions">
+        <div>
+          <h2>Do you have any questions?</h2>
+          <h5>Les us help you!</h5>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your mail"
+            required
+          />
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-left-side">
+        <img src="./images/logos/circle.svg" alt="Circle logo" />
+        <p class="company-address">2972 Westheimer Rd. Santa Ana,</p>
+        <p class="company-address">Illinois 85486,</p>
       </div>
-    </section>
-    <section class="questions"></section>
-    <footer></footer>
+      <div class="footer-rigth-side">
+        <a href="team">Team</a>
+        <a href="services">Serveices</a>
+        <a href="about-us">About us</a>
+        <a href="press">Press</a>
+        <a href="projects">Projects</a>
+        <a href="privacy-policy">Privacy Policy</a>
+      </div>
+    </footer>
   </body>
 </html>
