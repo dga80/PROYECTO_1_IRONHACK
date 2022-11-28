@@ -1,50 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     all: unset;
 }
 a:hover {
     color:#072AC8;
   }
+  .header{
+    justify-content: center;
+    display: none !important;
+}
 
-.navbar{
-    justify-content: space-around;
-    width: 100%;
+/* //// TABLET /// */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .header{
+        justify-content: center;
+        display: inline !important;
+    }
+    .navbar{
+        margin-top: 50px;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .menu{
+        justify-content: space-between;
+        width: 25%;
+        align-items: center;
+    }
+    .logo{
+        height: 21px;
+        align-items: center;
+        padding: 9px 0 0 0;
+    }
+    .buttonContact{
+        align-items: center;
+    }
+
 }
-.menu{
-    width: 20%;
+/* /// DESKTOP //// */
+
+@media (min-width:1024px){
+
+    .header{
+        justify-content: center;
+        display: inline !important;
+        display: flex;
+    }
+    .navbar{
+        margin-top: 50px;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .menu{
+        justify-content: space-between;
+        width: 25%;
+        align-items: center;
+    }
+    .logo{
+        height: 21px;
+        align-items: center;
+        padding: 9px 0 0 0;
+    }
+    .buttonContact{
+        align-items: center;
+    }
+
 }
-img{
-    width: 100px;
-}
+
 .footer{
     display :flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 10% 0 10%;
 }
 .questions{    
     background-color: yellow;
     text-align: center;
    
 }
-.margin-index{
+.head-1-img{
+    width: 85%;
     margin: 0 7.5% 0 7.5%;
 }
-.flex{
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-article {
+    width: 85%;
+    padding: 0.85rem 1.5rem 1.5rem 1.5rem;
+}
+
+.projects-article-info {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.head-1 h3{
 
-}
-.head-1 h5{
-    
-}
-.head-1 p{
-    
-}
-.head-1 img{
-     width: 100%;
+.projects-article-info h3 {
+    display: block;
 }
 
 
+img {
+    width: 30rem;
+}
 
