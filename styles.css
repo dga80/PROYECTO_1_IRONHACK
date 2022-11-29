@@ -1,4 +1,5 @@
-
+*{ margin:  0;
+    padding: 0;}
 a {
     all: unset;
 }
@@ -214,41 +215,76 @@ a:hover {
 
 
 .projects {
+    background-color: beige;
+    flex-direction: column;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
 
 .projects-article {
-    width: 85%;
+    width: 25%;
     padding: 0.85rem 1.5rem 1.5rem 1.5rem;
 }
-
-.projects-article-info {
+.projects-article img{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
-.projects-article-info h3 {
-    display: block;
-}
-.reviews{
-    justify-content: space-around;
-    text-align: center;
+.reviews{    
     background-color: #292E47;
     color: white;
+    flex-direction: column;
 }
 .reviews img{
-    width: 100px;
+    width: 15%;
+    height: 15%;
+ }
+ .reviews h6{
+    color: #FFC600;
+    text-align: center; 
+    width: 50%;   
+    margin : 10% 10% 10% 10%;
 }
-.reviews-column{
-    display: flex;
-    flex-direction: column;
+.reviews-container{     
+    padding-top: 5% 0% 5% 0%;
     justify-content: space-between;
+    align-items: flex-end;
+    
 }
-.reviews-center-column{   
-    width: 40%;
+
+.reviews-container h4{    
+    text-align: center; 
+    width: 60%;  
+    align-items: baseline;
 }
+.reviews-container q{  
+   text-align:center;
+    color: #FFC600;
+    margin: 10%;
+}
+.review-container{
+    max-width: 40%;
+    justify-content: center;
+}
+.review-container img{
+    border-radius: 100%;
+    height: 40%;
+    align-self: center;
+    padding: 2%;
+}
+.review-text-container{
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    color: #43d2ff;    
+}
+.brand{
+    color: white;
+}
+
 .services{
     flex-wrap: wrap;
     justify-content: center;
@@ -259,46 +295,64 @@ a:hover {
 }
 .services-container{
     background-color: white;
-    width: 50%;
+    width: 35%;
     margin : 5%;
-    padding: 10%;
+    padding: 7%;
 }
 .services-container a{
     color: #072AC8;
 }
+.services-container img{
+    padding: 7%;
+    border-radius: 100%;
+    background-color: #F2F4FC;
+}
 
 .questions{    
-    background-color: yellow;
+    background-color: #FFC600;
     text-align: center;
     padding: 6%;   
 }
-.questions h5{
+.questions h6{
     margin: 5%; 
+}
+.questions img{
+    width: 30%;
+}
+.questions input{
+    border: 0px solid;
+    height: 100%;
+ }
+
+.input-holder{
+    height:20vh;
+}
+.input-wrapper{
+    position: relative;
+}
+.input-icon{
+
 }
 
 .footer{
-    width : 85%;
     justify-content: space-between;
     align-items: center;    
 }
 .footer img{
-    width : 15vh;
     padding: 5% 5% 5% 0;    
 }
 .footer-left-side{
-    width : 33%;
+    width : 30%;
 }
 .footer-right-side {
-    width: 33%
+    width: 45%
     }
-.footer-right-side a{
-    max-width: 20%;  
-}
 .link-container{
     padding: 10%;;
 }
-.link-container a{
+.link {
     margin: 10%;
+    font-family: 'Roboto', sans-serif;
 }
 
 
