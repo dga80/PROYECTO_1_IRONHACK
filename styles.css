@@ -250,7 +250,7 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.projects-article h3 {
+.projects-article h4 {
     margin-bottom: 7%;
     margin-left: 5%;
 }
@@ -274,8 +274,7 @@ body {
 
 .reviews{
     justify-content: space-around;
-    text-align: center;
-.reviews{    
+    text-align: center;   
     background-color: #292E47;
     color: white;
     flex-direction: column;
