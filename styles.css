@@ -123,12 +123,14 @@ a:hover {
 .reviews-container{     
     padding-top: 5% 0% 5% 0%;
     justify-content: space-between;
-   align-self: center;
+    align-items: flex-end;
+    
 }
 
 .reviews-container h4{    
     text-align: center; 
-    width: 50%;     
+    width: 60%;  
+    align-items: baseline;
 }
 .reviews-container q{  
    text-align:center;
@@ -186,24 +188,25 @@ a:hover {
     text-align: center;
     padding: 6%;   
 }
-.questions input{
-    border: 0px solid;
-    padding: 1%;
-    height: 15%;
-}
 .questions h6{
     margin: 5%; 
 }
 .questions img{
     width: 30%;
 }
+.questions input{
+    border: 0px solid;
+    height: 100%;
+ }
+
+.input-holder{
+    height:20vh;
+}
 .input-wrapper{
     position: relative;
 }
 .input-icon{
-    <svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
-    <circle id="redcircle" cx="50" cy="50" r="50" fill="red" />
-</svg>
+
 }
 
 .footer{
