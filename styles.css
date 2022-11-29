@@ -25,12 +25,6 @@ a:hover {
     display: flex;
 }
 
-
-/* .section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 .home {
     height: 60vh;
     flex-direction: column;
@@ -38,8 +32,7 @@ a:hover {
 }
 .home h1 {
     font-size: 2.8rem;
-    margin: 0px 0px 0px 0px
-    
+    margin: 0px 0px -30px 0px
 }
 
 .buttonsHero {
@@ -65,7 +58,10 @@ a:hover {
     left: 56%;
     top:60%;
 }
-
+.buttonContact :hover{
+    color: white;
+    background-color: #0757c8;
+}
 
 /* //// TABLET /// */
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -97,7 +93,7 @@ a:hover {
     .section1 {
         display: flex;
         width: auto;
-        height: 100vh;
+        height: 70vh;
     }
     .heroComposition{
         position: relative;
@@ -125,7 +121,10 @@ a:hover {
     .home h1 {
         margin-bottom: 15px;
         width: 36vw;
-        font-size: 3rem;
+        font-size: 2.6rem;
+    }
+    .home p {
+        margin-top: -40px;
     }
     .card2{
         left: 66%;
@@ -170,6 +169,7 @@ a:hover {
         align-items: center;
         width: auto;
         height: 75vh;
+        margin-bottom: 200px;
     }
     .heroComposition{
         position: relative;
@@ -190,6 +190,10 @@ a:hover {
     }
     .home h1 {
         width: 36vw;
+        margin:0;
+    }
+    .home p {
+        margin-top: -80px;
     }
     .card2{
         left: 66%;
@@ -329,9 +333,6 @@ a:hover {
 }
 .input-wrapper{
     position: relative;
-}
-.input-icon{
-
 }
 
 .footer{
