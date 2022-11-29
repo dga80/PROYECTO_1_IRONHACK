@@ -77,6 +77,7 @@ a:hover {
         align-items: center;
     }
 }
+
 .head-1 img{
     width: 100%;
 }
@@ -93,19 +94,23 @@ a:hover {
 }
 
 .projects-article {
-    width: 85%;
+    width: 25%;
     padding: 0.85rem 1.5rem 1.5rem 1.5rem;
 }
+.projects-article img{
+    width: 20&
+}
 
+/* 
 .projects-article-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.projects-article-info h3 {
+/* .projects-article-info h3 {
     display: block;
-}
+} */
 .reviews{
     justify-content: space-around;
     text-align: center;
@@ -123,6 +128,10 @@ a:hover {
 .reviews-center-column{   
     width: 40%;
 }
+.reviews-center-column img{   
+    width : 20%;
+}
+
 .services{
     flex-wrap: wrap;
     justify-content: center;
@@ -160,13 +169,13 @@ a:hover {
     padding: 5% 5% 5% 0;    
 }
 .footer-left-side{
-    width : 33%;
+    width : 30%;
 }
 .footer-right-side {
-    width: 33%
+    width: 45%
     }
 .footer-right-side a{
-    max-width: 20%;  
+      
 }
 .link-container{
     padding: 10%;;
