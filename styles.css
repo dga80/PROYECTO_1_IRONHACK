@@ -105,6 +105,14 @@ body {
     .projects-article {
         width: 25%;
     }
+    .services{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    .services-container {
+        width: 25%;
+    }
     .section1 {
         display: flex;
         width: auto;
@@ -183,7 +191,15 @@ body {
     }
     .projects-article {
         width: 30%;
-    }    
+    }   
+    .services{
+        display: flex;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
+    .services-container {
+        width: 30%;
+    }   
     .section1 {
         display: flex;
         align-items: center;
@@ -230,14 +246,6 @@ body {
     padding:5%
 }
 
-/* .projects {
-    background-color: beige;
-    flex-direction: column;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-} */
-
 .projects-tittle{
     margin : 0 25% 0 25% 0;
 }
@@ -261,7 +269,7 @@ body {
 }
 
 .projects-article p {
-    width:100%;
+    width: 90%;
     margin-top: 0%;
     margin-bottom: 15%;
     margin-left: 5%;
@@ -282,8 +290,8 @@ body {
 .reviews img{
     width: 15%;
     height: 15%;
- }
- .reviews h6{
+}
+.reviews h6{
     color: #FFC600;
     text-align: center; 
     width: 50%;   
@@ -302,7 +310,7 @@ body {
     align-items: baseline;
 }
 .reviews-container q{  
-   text-align:center;
+    text-align:center;
     color: #FFC600;
     margin: 10%;
 }
@@ -315,6 +323,7 @@ body {
     height: 40%;
     align-self: center;
     padding: 2%;
+    margin-bottom: 2rem;
 }
 .review-text-container{
     margin: 0;
@@ -329,27 +338,37 @@ body {
     color: white;
 }
 
-.services{
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: aliceblue;
-}
 .services-tittle{
     margin : 0 25% 0 25% 0;
 }
 .services-container{
-    background-color: white;
-    width: 35%;
-    margin : 5%;
-    padding: 7%;
-}
-.services-container a{
-    color: #072AC8;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 1);
 }
 .services-container img{
     padding: 7%;
     border-radius: 100%;
     background-color: #F2F4FC;
+}
+
+.services-container h4 {
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+
+.services-container p {
+    width: 90%;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+}
+
+.services-container a {
+    color: #072AC8;
+    margin-left: 5%;
 }
 
 .questions{    
