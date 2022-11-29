@@ -1,9 +1,17 @@
-
+*{ margin:  0;
+    padding: 0;}
 a {
     all: unset;
 }
 a:hover {
     color:#072AC8;
+  }
+.getinTouch:hover{
+    color: white;
+    background-color: #0757c8;
+}
+.seeourWork:hover {
+    color: #292E47;
   }
 .header{
     justify-content: center;
@@ -18,6 +26,47 @@ a:hover {
 }
 body {
     background-color: #F2F4FC;
+}
+
+
+/* .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.home {
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home h1 {
+    font-size: 2.8rem;
+    margin: 0px 0px 0px 0px
+    
+}
+
+.buttonsHero {
+    width: 300px;
+    justify-content: flex-start;
+}
+.heroComposition{
+    position: relative;
+    width: 80vw;
+}
+.hero {
+    margin-left: 10vw;
+    width: 70vw;
+}
+.creditcard {
+    position: absolute;
+    width: 50vw;
+}
+.card1 {
+    left:-25px;
+}
+.card2 {
+    left: 56%;
+    top:60%;
 }
 
 
@@ -56,6 +105,46 @@ body {
     .projects-article {
         width: 25%;
     }
+    .section1 {
+        display: flex;
+        width: auto;
+        height: 100vh;
+    }
+    .heroComposition{
+        position: relative;
+        width: 51vw;
+        height:78vh;
+    }
+    .buttonsHero {
+        width: 400px;
+    }
+    
+    .hero {
+        margin-left: 10vw;
+        width: 48vw;
+    }
+    .creditcard {
+        position: absolute;
+        width: 25vw;
+    }
+    .home {
+        margin-top: 5%;
+        margin-right: 0;
+        width: 30vw;
+        height: 60vh;
+    }
+    .home h1 {
+        margin-bottom: 15px;
+        width: 36vw;
+        font-size: 3rem;
+    }
+    .card2{
+        left: 66%;
+    }
+    .card1{
+        left: 18px;
+    }
+
 
 }
 /* /// DESKTOP //// */
@@ -94,8 +183,40 @@ body {
     }
     .projects-article {
         width: 30%;
+    .section1 {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 75vh;
+    }
+    .heroComposition{
+        position: relative;
+        width: 51vw;
+        height:78vh;
+    }
+    .hero {
+        margin-left: 10vw;
+        width: 48vw;
+    }
+    .creditcard {
+        position: absolute;
+        width: 30vw;
+    }
+    .home {
+        margin-right: 0;
+        width: 30vw;
+    }
+    .home h1 {
+        width: 36vw;
+    }
+    .card2{
+        left: 66%;
+    }
+    .card1{
+        left: 18px;
     }
 }
+
 
 .head-1 img{
     width: 100%;
@@ -106,6 +227,14 @@ body {
     }
 .brands img{
     padding:5%
+}
+
+.projects {
+    background-color: beige;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
 
 .projects-article {
@@ -140,22 +269,59 @@ body {
 .reviews{
     justify-content: space-around;
     text-align: center;
+.reviews{    
     background-color: #292E47;
     color: white;
+    flex-direction: column;
 }
 .reviews img{
-    width: 100px;
+    width: 15%;
+    height: 15%;
+ }
+ .reviews h6{
+    color: #FFC600;
+    text-align: center; 
+    width: 50%;   
+    margin : 10% 10% 10% 10%;
 }
-.reviews-column{
-    display: flex;
-    flex-direction: column;
+.reviews-container{     
+    padding-top: 5% 0% 5% 0%;
     justify-content: space-between;
+    align-items: flex-end;
+    
 }
-.reviews-center-column{   
-    width: 40%;
+
+.reviews-container h4{    
+    text-align: center; 
+    width: 60%;  
+    align-items: baseline;
 }
-.reviews-center-column img{   
-    width : 20%;
+.reviews-container q{  
+   text-align:center;
+    color: #FFC600;
+    margin: 10%;
+}
+.review-container{
+    max-width: 40%;
+    justify-content: center;
+}
+.review-container img{
+    border-radius: 100%;
+    height: 40%;
+    align-self: center;
+    padding: 2%;
+}
+.review-text-container{
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    color: #43d2ff;    
+}
+.brand{
+    color: white;
 }
 
 .services{
@@ -168,30 +334,50 @@ body {
 }
 .services-container{
     background-color: white;
-    width: 50%;
+    width: 35%;
     margin : 5%;
-    padding: 10%;
+    padding: 7%;
 }
 .services-container a{
     color: #072AC8;
 }
+.services-container img{
+    padding: 7%;
+    border-radius: 100%;
+    background-color: #F2F4FC;
+}
 
 .questions{    
-    background-color: yellow;
+    background-color: #FFC600;
     text-align: center;
     padding: 6%;   
 }
-.questions h5{
+.questions h6{
     margin: 5%; 
+}
+.questions img{
+    width: 30%;
+}
+.questions input{
+    border: 0px solid;
+    height: 100%;
+ }
+
+.input-holder{
+    height:20vh;
+}
+.input-wrapper{
+    position: relative;
+}
+.input-icon{
+
 }
 
 .footer{
-    width : 85%;
     justify-content: space-between;
     align-items: center;    
 }
 .footer img{
-    width : 15vh;
     padding: 5% 5% 5% 0;    
 }
 .footer-left-side{
@@ -200,15 +386,14 @@ body {
 .footer-right-side {
     width: 45%
     }
-.footer-right-side a{
-      
-}
 .link-container{
     padding: 10%;;
 }
-.link-container a{
+.link {
     margin: 10%;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 
 

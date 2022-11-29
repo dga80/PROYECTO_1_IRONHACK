@@ -27,19 +27,22 @@
       </div>
     </header>
     <main>
-      <section>
-        <div class="margin-index">
+      <section class="section1 margin-index">
+        <div class="home flex">
           <h1>Empower Your Business With Stunning Design!</h1>
           <p>
             Circle is a digital design and development studio. We design and
             develop astonishing websites and mobile apps.
           </p>
-          <a href="Get in touch"></a>
-          <a href="See our work"></a>
+          <div class="buttonsHero flex">
+            <a href="Get in touch" class="getinTouch buttonContact caption2 buttonBlue" style="cursor: pointer">Get in touch</a>
+            <a href="See our work" class="seeourWork buttonWhite" style="cursor: pointer">See our work</a>
+          </div>
         </div>
-        <div>
-          <img src="./images/hero-section/card-1.png" alt="credit/debit card" />
-          <img src="./images/hero-section/card-2.png" alt="credit/debit card" />
+        <div class="heroComposition">
+          <img class="creditcard card1" src="./images/hero-section/card-1.png" alt="credit/debit card" />
+          <img class="hero" src="./images/hero-section/hero-image.png" alt="hero_img">
+          <img class="creditcard card2" src="./images/hero-section/card-2.png" alt="credit/debit card" />
         </div>
       </section>
 
@@ -81,31 +84,39 @@
             <a class="learn-more" href="#">Learn more</a>
           </article>
         </div>
-      </section>
+      </section> -->
 
       <section class="reviews flex">
-        <div class="reviews-column flex">
+
+        <div class="reviews-container flex">
           <img src="./images/testimonial-section/memoji-1.png" alt="emoticon-1" />
+          <h4>Hear What Our Clients Have to Say</h4>
           <img src="./images/testimonial-section/memoji-2.png" alt="emoticon-2" />
         </div>
-        <div class = "reviews-center-column">
-          <h3>Hear What Our Clients Have to Say</h3>
-          <h4>
+
+       <div class="reviews-container flex">
+          <q>
             Circle helped us through every stage of our startup. We really enjoyed
             working with you
-          </h4>
-          <h5>Kristin Watson</h5>
-          <h6>Booking.com</h6>
-          <img src="./images/testimonial-section/profile.png" alt="profile_pic" />
+          </q>   
         </div>
-        <div class = "reviews-column">
+
+        <div class = "reviews-container flex">    
           <img src="./images/testimonial-section/memoji-3.png" alt="emoticon-3" />
+          <div class = "review-container flex">
+           <img src="./images/testimonial-section/profile.png" alt="profile_pic" />
+            <div class="review-text-container flex">
+              <p class = "name">Kristin Watson</p>
+              <p class = "brand">Booking.com</p>
+            </div> 
+        </div>
+
           <img src="./images/testimonial-section/memoji-4.png" alt="emoticon-4" />
         </div>
       </section>
 
-   
-+     <h2 class = "services-tittle">Our Services</h2>  
+      <h3 class = "services-tittle">Our Services</h3> 
+
       <section class="services flex">             
           <article class="services-container">
             <img src="./images/services-section/icons/1.svg" alt="" />
@@ -137,37 +148,47 @@
       </section>
 
       <section class="questions">
-        <div>
-          <h3>Do you have any questions?</h3>
-          <h5>Les us help you!</h5>
+        <div class = "input-holder">
+          <h4>Do you have any questions?</h4>
+          <h6>Les us help you!</h6>
+          <div class = "input-wrapper">
           <input
             type="email"
             id="email"
             placeholder="Enter your mail"
             required
           />
-          <button class="subscribe">Subscribe</button>
+          <button class="buttonBlue">Subscribe</button>
+        </div>
         </div>
       </section>
+
     </main>
+
     <footer class="footer flex margin-index">
+
       <div class="footer-left-side">
         <img src="./images/logos/circle.svg" alt="Circle logo" />
-        <p class="company-address">2972 Westheimer Rd. Santa Ana,</p>
-        <p class="company-address">Illinois 85486,</p>
+        <h5 class="company-address">2972 Westheimer Rd. Santa Ana,</h5>
+        <h5 class="company-address">Illinois 85486,</h5>
       </div>
+
       <div class="footer-right-side flex">
+
         <div class = "link-container">
         <a class = "link" href="team">Team</a>
         <a class = "link" href="services">Services</a>
         <a class = "link" href="about-us">About us</a>
        </div>
+
        <div class="link-container">
         <a href="press">Press</a>
         <a href="projects">Projects</a>
         <a href="privacy-policy">Privacy Policy</a>
        </div>
+       
       </div>
+
     </footer>
   </body>
 </html>
