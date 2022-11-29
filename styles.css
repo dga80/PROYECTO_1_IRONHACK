@@ -183,6 +183,7 @@ body {
     }
     .projects-article {
         width: 30%;
+    }    
     .section1 {
         display: flex;
         align-items: center;
@@ -229,12 +230,16 @@ body {
     padding:5%
 }
 
-.projects {
+/* .projects {
     background-color: beige;
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+} */
+
+.projects-tittle{
+    margin : 0 25% 0 25% 0;
 }
 
 .projects-article {
@@ -252,6 +257,7 @@ body {
 
 .projects-article img{
     width:100%;
+    margin-bottom: 2rem;
 }
 
 .projects-article p {
