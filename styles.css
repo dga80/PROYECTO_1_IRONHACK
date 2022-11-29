@@ -16,6 +16,9 @@ a:hover {
 .flex{
     display: flex;
 }
+body {
+    background-color: #F2F4FC;
+}
 
 
 /* //// TABLET /// */
@@ -44,6 +47,14 @@ a:hover {
     }
     .buttonContact{
         align-items: center;
+    }
+    .projects{
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    .projects-article {
+        width: 25%;
     }
 
 }
@@ -76,6 +87,14 @@ a:hover {
     .buttonContact{
         align-items: center;
     }
+    .projects{
+        display: flex;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
+    .projects-article {
+        width: 30%;
+    }
 }
 
 .head-1 img{
@@ -88,32 +107,36 @@ a:hover {
 .brands img{
     padding:5%
 }
-.projects {
-    background-color: beige;
-    flex-direction: column;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-}
 
 .projects-article {
-    width: 25%;
-    padding: 0.85rem 1.5rem 1.5rem 1.5rem;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 1);
 }
+
+.projects-article h3 {
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+
 .projects-article img{
-    width: 100%;
+    width:100%;
 }
 
-/* 
-.projects-article-info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
+.projects-article p {
+    width:100%;
+    margin-top: 0%;
+    margin-bottom: 15%;
+    margin-left: 5%;
+}
 
-/* .projects-article-info h3 {
-    display: block;
-} */
+.projects-article a {
+    color: #072AC8;
+    margin-left: 5%;
+}
+
 .reviews{
     justify-content: space-around;
     text-align: center;
