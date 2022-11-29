@@ -6,6 +6,13 @@ a {
 a:hover {
     color:#072AC8;
   }
+.getinTouch:hover{
+    color: white;
+    background-color: #0757c8;
+}
+.seeourWork:hover {
+    color: #292E47;
+  }
 .header{
     justify-content: center;
     display: none;
@@ -16,6 +23,47 @@ a:hover {
 }
 .flex{
     display: flex;
+}
+
+
+/* .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.home {
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home h1 {
+    font-size: 2.8rem;
+    margin: 0px 0px 0px 0px
+    
+}
+
+.buttonsHero {
+    width: 300px;
+    justify-content: flex-start;
+}
+.heroComposition{
+    position: relative;
+    width: 80vw;
+}
+.hero {
+    margin-left: 10vw;
+    width: 70vw;
+}
+.creditcard {
+    position: absolute;
+    width: 50vw;
+}
+.card1 {
+    left:-25px;
+}
+.card2 {
+    left: 56%;
+    top:60%;
 }
 
 
@@ -46,6 +94,46 @@ a:hover {
     .buttonContact{
         align-items: center;
     }
+    .section1 {
+        display: flex;
+        width: auto;
+        height: 100vh;
+    }
+    .heroComposition{
+        position: relative;
+        width: 51vw;
+        height:78vh;
+    }
+    .buttonsHero {
+        width: 400px;
+    }
+    
+    .hero {
+        margin-left: 10vw;
+        width: 48vw;
+    }
+    .creditcard {
+        position: absolute;
+        width: 25vw;
+    }
+    .home {
+        margin-top: 5%;
+        margin-right: 0;
+        width: 30vw;
+        height: 60vh;
+    }
+    .home h1 {
+        margin-bottom: 15px;
+        width: 36vw;
+        font-size: 3rem;
+    }
+    .card2{
+        left: 66%;
+    }
+    .card1{
+        left: 18px;
+    }
+
 
 }
 /* /// DESKTOP //// */
@@ -77,7 +165,40 @@ a:hover {
     .buttonContact{
         align-items: center;
     }
+    .section1 {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 75vh;
+    }
+    .heroComposition{
+        position: relative;
+        width: 51vw;
+        height:78vh;
+    }
+    .hero {
+        margin-left: 10vw;
+        width: 48vw;
+    }
+    .creditcard {
+        position: absolute;
+        width: 30vw;
+    }
+    .home {
+        margin-right: 0;
+        width: 30vw;
+    }
+    .home h1 {
+        width: 36vw;
+    }
+    .card2{
+        left: 66%;
+    }
+    .card1{
+        left: 18px;
+    }
 }
+
 
 .head-1 img{
     width: 100%;
@@ -89,6 +210,10 @@ a:hover {
 .brands img{
     padding:5%
 }
+
+
+
+
 .projects {
     background-color: beige;
     flex-direction: column;
@@ -229,6 +354,7 @@ a:hover {
     margin: 10%;
     font-family: 'Roboto', sans-serif;
 }
+
 
 
 

@@ -2,6 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body p {
+    color: #6B708D;
+}
+.flex{
+    display: flex;
+}
+
+
 h1{
     font-size: 60px;
     font-weight: 700;
@@ -75,4 +83,8 @@ h4{
     background-color: #072AC8;
     padding: 12px 25px 12px 25px;
     color: #F2F4FC;
+}
+.buttonWhite{
+    padding: 12px 25px 12px 25px;
+    color: #6B708D;
 }
