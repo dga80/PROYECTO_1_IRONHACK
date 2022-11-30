@@ -20,10 +20,10 @@ async function fetchProjects() {
     });
     const recentProjects = sortedProjects.slice(0, 3);
 
-    // Para poder renderizar los proyectos mas recientes recorreremos el array recentProjects, pues en caso de que haya menos de tres arrays nuestra pagina no será inestable. Para recorrer el array utilizaremos el metodo .forEach().
-    // Previo a esto debemos seleccionar el elemento que contiene a los tres proyectos. 
+    // Para poder renderizar los proyectos mas recientes recorreremos el array recentProjects, pues en caso de que haya menos de tres arrays nuestra pagina no será inestable (solo renderizará la cantidad de proyectos que haya). Para recorrer el array utilizaremos el metodo .forEach().
+    // Previo a esto debemos seleccionar el elemento que contiene a los tres proyectos y los asignamos a la constante divProyects. 
 
-    const divProyectos = document.querySelector(".projects")
+    const divProyects = document.querySelector(".projects")
 
     recentProjects.forEach(function(project) {
         const div = `
@@ -37,7 +37,7 @@ async function fetchProjects() {
                 <a class="learn-more" href="../projects.html?uuid=${project.uuid}">Learn more</a>
             </article>
         `
-        divProyectos.innerHTML += div;
+        divProyects.innerHTML += div;
     })
 }
 
