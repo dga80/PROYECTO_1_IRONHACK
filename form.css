@@ -10,7 +10,7 @@
   }
   
   body {
-    padding: 1rem;
+    padding: 0;
   }
   
   .contain {
@@ -23,7 +23,7 @@
   .contain p {
     line-height: 2.5rem;
   }
-  @media (min-width: 600px) {
+  @media (min-width: 768px) {
     .contain {
       padding: 0;
     }

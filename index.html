@@ -10,8 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="./burgerstyle.css" rel="stylesheet" type="text/css" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link href="./font&colors.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="./js/index.js"></script> -->
     <title>Homepage</title>
   </head>
   <body>
@@ -28,8 +30,33 @@
         <div class="buttonContact caption2 buttonBlue flex " style="cursor: pointer">Contact Us</div>
       </div>
     </header>
+    <div id="headerBurger">
+      <div class="headerBurgerItems flex">
+        <nav id="navBurger" style="cursor: pointer">
+          <ul class="nav-menu" style="cursor: pointer">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </div>
     <main>
-      <section class="section1 margin-index" id="home">
+      <section class="section1" id="home">
         <div class="home flex">
           <h1>Empower Your Business With Stunning Design!</h1>
           <p>
@@ -227,5 +254,7 @@
             
       </div>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
+
 </html>

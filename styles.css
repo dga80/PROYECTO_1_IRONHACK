@@ -6,6 +6,7 @@ a {
 a:hover {
     color:#072AC8;
   }
+
 .getinTouch:hover{
     color: white;
     background-color: #0757c8;
@@ -16,6 +17,9 @@ a:hover {
 .header{
     justify-content: center;
     display: none;
+}
+.section1 {
+    margin: 5% 7.5% 3% 7.5%
 }
 .margin-index{
     width: 85%;

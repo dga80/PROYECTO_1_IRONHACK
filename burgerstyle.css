@@ -1,0 +1,147 @@
+li{
+  list-style: none;
+}
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav-branding{
+  font-size: 2rem;
+}
+.nav-link {
+  transition: 0.7s ease;
+}
+.nav-link:hover{
+  color: #a1a5b7;
+}
+#headerBurger{
+  background-color: #6B708D;
+}
+.headerBurgerItems{
+  justify-content: flex-end;
+}
+.logoBurger{
+  justify-content: flex-start;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+.hamburger{
+  margin: 20px;
+}
+/* .hamburger.active .bar:nth-child(2){
+  opacity: 0;
+} */
+/* .hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+} */
+.nav-menu{
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #6B708D;
+  color: white;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+.nav-item{
+  margin: 16px 0;
+}
+.nav-menu.active{
+  left: 0;
+
+}
+#navBurger{
+  position: absolute;
+  padding: 10px;
+}
+
+
+
+
+
+
+/* //// TABLET /// */
+@media (min-width: 769px) and (max-width: 1023px) {
+  #headerBurger {
+    display: none;
+  }
+  .header{
+      display: flex;
+      justify-content: center;
+  }
+  .navbar{
+      margin-top: 50px;
+      justify-content: space-between;
+      width: 85%;
+  }
+  .menu{
+      justify-content: space-between;
+      width: 40%;
+      align-items: center;
+  }
+  .logo{
+      height: 21px;
+      align-items: center;
+      padding: 9px 0 0 0;
+  }
+  .buttonContact{
+      align-items: center;
+  }
+
+}
+/* /// DESKTOP //// */
+
+@media (min-width:1024px){
+  #headerBurger {
+    display: none;
+  }
+  .burgerHeader{
+      display: none;
+  }
+
+  .header{
+      justify-content: center;
+      display: flex;
+  }
+  .navBurger{
+      margin-top: 50px;
+      justify-content: space-between;
+      width: 85%;
+  }
+  .menu{
+      justify-content: space-between;
+      width: 35%;
+      align-items: center;
+  }
+  .logo{
+      height: 21px;
+      align-items: center;
+      padding: 9px 0 0 0;
+  }
+  .buttonContact{
+      align-items: center;
+  }
+
+}
