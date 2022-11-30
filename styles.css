@@ -422,11 +422,12 @@ body {
 }   
 
 .footer-right-side{
-    width: 60%;
+    width: 40%;
     flex-direction: column;
 }
 
-.link-container{   
+.link-container{  
+    justify-content: space-between; 
     padding: 5%;
 }
 .link{
@@ -435,6 +436,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 0.7rem;
     color : #6B708D;
+    min-width: fit-content
+
 }
 
 
