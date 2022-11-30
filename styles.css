@@ -324,6 +324,7 @@ body {
     align-self: center;
     padding: 2%;
     margin-bottom: 2rem;
+
 }
 .review-text-container{
     margin: 0;
@@ -332,7 +333,7 @@ body {
     justify-content: center;
 }
 .name{
-    color: #43d2ff;    
+    color: #43d2ff;
 }
 .brand{
     color: white;
@@ -341,6 +342,7 @@ body {
 .services-tittle{
     margin : 0 25% 0 25% 0;
 }
+
 .services-container{
     width: 60%;
     margin: auto;
@@ -348,13 +350,18 @@ body {
     padding-bottom: 5%;
     background-color: rgba(255, 255, 255, 1);
 }
-.services-container img{
-    padding: 7%;
-    border-radius: 100%;
+
+.services-container-img {
+    padding: 5%;
+    margin: 7%;
+    border-radius: 50%;
     background-color: #F2F4FC;
+    width: 3rem;
+    height: 3rem;
 }
 
 .services-container h4 {
+    width: 90%;
     margin-bottom: 7%;
     margin-left: 5%;
 }
@@ -371,13 +378,13 @@ body {
     margin-left: 5%;
 }
 
-.questions{    
+.questions{
     background-color: #FFC600;
     text-align: center;
-    padding: 6%;   
+    padding: 6%;
 }
 .questions h6{
-    margin: 5%; 
+    margin: 5%;
 }
 .questions img{
     width: 30%;
@@ -399,7 +406,7 @@ body {
 
 .footer{
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 .footer img{
     padding: 5% 5% 5% 0;    
