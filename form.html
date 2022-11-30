@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="./form.css" rel="stylesheet" type="text/css" />
+    <link href="./font&colors.css" rel="stylesheet" type="text/css" />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+</head>
+    <body>
+        <header class="header">
+            <div class="navbar flex">
+            <div class="logo flex"><img src="images/logos/circle.svg" alt="logoCircle"></div>
+            <div class="menu flex" style="cursor: pointer">
+                <a href="#" class="color6" >Home</a>
+                <a href="#" class="color6">Projects</a>
+                <a href="#" class="color6">Services</a>
+            </div>
+            <div class="buttonContact caption2 buttonBlue flex " style="cursor: pointer">Contact Us</div>
+            </div>
+        </header>
+        <div class="contain">
+            <div class="form">
+                <h2>Contact Us</h2>
+                <form action="" method="get" class="">
+                    <p class="full-width">
+                        <label for="name" class="under">Full Name *</label>
+                        <input type="text" name="name" placeholder="Enter your full name" id="name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Enter you email adress" id="email" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" placeholder="Enter your phone number" id="phone" required>
+                    </p>
+                    <p class="full-width">
+                        <label for="">Message</label>
+                        <textarea name="" id="" cols="30" rows="7" placeholder="Write your message here..."></textarea>
+                    </p>
+                    <p class="full-width submit submit">
+                        <button type="submit" style="cursor: pointer">Submit</button>
+                    </p>
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
