@@ -13,7 +13,6 @@
     <link href="./burgerstyle.css" rel="stylesheet" type="text/css" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link href="./font&colors.css" rel="stylesheet" type="text/css" />
-    <!-- <script src="./js/index.js"></script> -->
     <title>Homepage</title>
   </head>
   <body>
@@ -24,13 +23,16 @@
         </div>
         <div class="menu flex" style="cursor: pointer">
           <a href="#home" class="color6">Home</a>
-          <a href="#projects" class="color6">Projects</a>
+          <a href="#projectsAnchor" class="color6">Projects</a>
           <a href="#services" class="color6">Services</a>
         </div>
-        <div class="buttonContact caption2 buttonBlue flex " style="cursor: pointer">Contact Us</div>
+        <div>
+          <a href="/form.html" class="hoverable buttonContact caption2 buttonBlue flex" style="cursor: pointer">Contact Us</a>
+        </div>
       </div>
     </header>
     <div id="headerBurger">
+      <img src="images/logos/circle.svg" class="logoBurger" alt="logoCircle" />
       <div class="headerBurgerItems flex">
         <nav id="navBurger" style="cursor: pointer">
           <ul class="nav-menu" style="cursor: pointer">
@@ -105,7 +107,7 @@
         <img src="./images/logos/amazon-logo.svg" alt="Amazon logo" />
       </section>
 
-      <h3 class="projects-title margin-index">Recent Projects</h3>
+      <h3 class="projects-title" id="projectsAnchor">Recent Projects</h3>
       <section id="proyectsID" class="projects margin-index">
         <!-- <article class="projects-article">
           <img
@@ -135,6 +137,9 @@
           <a class="learn-more" href="#">Learn more</a>
         </article> -->
       </section>
+
+    
+    
       <section class="reviews flex">
         <div class="reviews-container flex">
           <img
@@ -212,7 +217,7 @@
             We develop high-quality mobile and web applications using the latest
             technology stack.
           </p>
-          <a class="learn-more" href="#"">Learn more</a>
+          <a class="learn-more" href="#">Learn more</a>
         </article>
       </section>
 
@@ -220,13 +225,15 @@
           <h4>Do you have any questions?</h4>
           <p>Les us help you!</p>
           <div class = "input-wrapper">
-            <input
+            <img role="img" style="width:16px;" src="../images/newsletter/icon/mail.svg" />
+            <input class = "questions-input"
               type="email"
               id="email"
               placeholder="Enter your mail"
               required
             />
-            <button class="buttonBlue">Subscribe</button>
+           
+            <button class="buttonBlue">Subscribe</button style="cursor: pointer">
         </div>      
       </section>
     </main>
@@ -254,7 +261,6 @@
             
       </div>
     </footer>
-    <script src="./js/index.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/index.js"></script>
   </body>
