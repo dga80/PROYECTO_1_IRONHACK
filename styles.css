@@ -23,7 +23,7 @@ a:hover {
 }
 .margin-index{
     width: 85%;
-    margin: 3% 7.5% 3% 7.5%;
+    margin: 0% 7.5% 3% 7.5%;
 }
 .flex{
     display: flex;
@@ -224,7 +224,7 @@ body {
         align-items: center;
         width: auto;
         height: 75vh;
-        margin-bottom: 200px;
+        margin-bottom: 30px;
     }
     .heroComposition{
         position: relative;
@@ -258,12 +258,21 @@ body {
     }
 }
 
+@media (min-width:1475px){
+    .section1 {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 75vh;
+        margin-bottom: 250px;
+    }
+}
 
 .head-1 img{
     width: 100%;
 }
 .brands {
-    padding: 5% 0 5% 0;
+    padding: 0% 0 5% 0;
     flex-wrap: wrap;
     justify-content: space-around;
     }
