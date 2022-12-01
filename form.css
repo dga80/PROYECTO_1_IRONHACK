@@ -48,7 +48,11 @@
   form label {
     display: block;
   }
-  form p {
+  /* form p {
+    margin: 0;
+  } */
+
+  .formP {
     margin: 0;
   }
   
