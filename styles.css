@@ -100,6 +100,15 @@ body {
     .projects-article {
         width: 25%;
     }
+    .reviews-container h4{    
+        text-align: center; 
+        width: 80%;        
+    }
+    .reviews q{
+        text-align:center;
+        font-size: 1rem;
+        color: #FFC600;
+    }
     .services{
         display: flex;
         gap: 2rem;
@@ -298,7 +307,7 @@ body {
     background-color: #292E47;
     color: white;
     flex-direction: column;
-    padding: 5%;
+    padding: 3%;
 }
 .reviews img{
     width: 15%;
@@ -306,31 +315,35 @@ body {
  }
  
 .reviews-container{     
-    padding-top: 5% 0% 5% 0%;
+    padding-top: 3% 0% 3% 0%;
     justify-content: space-between;
     align-items:center;
 }
 
 .reviews-container h4{    
     text-align: center; 
-    width: 80%;  
+    width: 80%;   
+    font-size: 1.1rem; 
 }
-.reviews-container q{  
+.reviews-center-container{ 
+    align-self: center;
+    width: 60%;   
+    text-align: center;
+    padding: 5% 15% 5% 15%;
+}
+.reviews q{
     text-align:center;
+    font-size: 0.8rem;
     color: #FFC600;
-    margin: 10%;
 }
 .review-container{
     max-width: 40%;
-    justify-content: center;
+    justify-content: center; 
 }
 .review-container img{
     border-radius: 100%;
     height: 100%;
-    align-self: center;
-    padding: 2%;
-    margin-bottom: 2rem;
-
+    padding: 2%;   
 }
 .review-text-container{
     margin: 0;
@@ -401,24 +414,26 @@ body {
 }
 .questions input{
     border: 0px solid;
+    height: 100%;
 }
 .input-wrapper{
     position: relative;
+    height: 2.5rem;
 }
 .footer{
     justify-content: space-between;
-    align-items: center;
+    align-items: center;   
 }
 .footer img{
-    padding: 5% 5% 5% 0;    
+    padding: 5% 5% 5% 0%;    
 }
 .footer-left-side{
-    width : 40%;
+    width : 50%;
 }
 .company-address{   
     font-family: 'Roboto', sans-serif;
-    padding: 3% 0 3% 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    min-width: fit-content;
 }   
 
 .footer-right-side{
@@ -432,12 +447,11 @@ body {
 }
 .link{
     box-sizing: content-box;
-    padding: 5%;
+    padding: 2%;
     font-family: 'Roboto', sans-serif;
     font-size: 0.7rem;
     color : #6B708D;
-    min-width: fit-content
-
+    min-width: fit-content;
 }
 
 
