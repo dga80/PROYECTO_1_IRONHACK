@@ -256,11 +256,181 @@ body {
     .card1{
         left: 18px;
     }
-    .brands {       
-        padding: 5% 0 5% 0;
+    .brands {        
         flex-wrap: wrap;
         justify-content: space-around;
+        margin: 15%;
     }
+    .brands img{
+        min-width: 8%;;
+    }
+    .reviews{
+        justify-content: space-around;
+        text-align: center;   
+        background-color: #292E47;
+        color: white;
+        flex-direction: column;
+        padding: 3%;
+    }
+    .reviews img{
+        width: 8%;
+        height: 8%;
+     }
+     
+    .reviews-container{     
+        padding-top: 3% 0% 3% 0%;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+    .reviews-container h4{    
+        text-align: center; 
+        width: 80%;   
+        font-size: 4rem;
+    }
+    .reviews-center-container{ 
+        align-self: center;
+        width: 60%;   
+        text-align: center;
+        padding: 5% 15% 5% 15%;
+    }
+    .reviews q{
+        text-align:center;
+        font-size: 0.8rem;
+        color: #FFC600;
+    }
+    .review-container{
+        max-width: 40%;
+        justify-content: center; 
+    }
+    .review-container img{
+        border-radius: 100%;
+        height: 100%;
+        padding: 2%;   
+    }
+    .review-text-container{
+        margin: 0;
+        justify-content: center;
+        flex-direction: column;     
+    }
+    .name{
+        color: #43d2ff;  
+        font-size: 0.5rem;;  
+    }
+    .brand{
+        color: white;
+        font-size: 0.6rem;
+    }
+    
+    .services-tittle{
+        margin : 8% 25% 8% 25%;
+        font-size: 1.7rem;
+    }
+    
+    .services-container{
+        width: 60%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding: 1% 5% 4% 5%;
+        background-color: rgba(255, 255, 255, 1);
+    }
+    
+    .services-container-img {
+        padding: 5%;
+        margin: 7%;
+        border-radius: 50%;
+        background-color: #F2F4FC;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .services-container h4 {
+        width: 90%;
+        margin-bottom: 7%;
+        margin-left: 5%;
+        font-size: 1.2rem;
+    }
+    
+    .services-container p {
+        width: 90%;
+        margin-top: 0%;
+        margin-bottom: 6%;
+        margin-left: 5%;
+    }
+    
+    .services-container a {
+        color: #072AC8;
+        margin-left: 5%;
+    }
+    
+    .questions{
+        background-color: #FFC600;
+        text-align: center;
+        padding: 6%;
+    }
+    .questions h4{
+        font-size: 1.2rem;
+    }
+    .questions p{
+        margin: 3%; 
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: black;
+    }
+    .input-wrapper{
+        position: relative;
+        height: 2.5rem;
+    }
+    .questions img{
+        position: absolute;
+        padding: 10px 10px 10px 10px;
+        pointer-events: none;   
+    }
+    .questions-input{
+        width: max-content;
+        padding-left: 30px;
+        box-sizing: content-box;
+        border: 0px solid;
+        height: 100%;
+    }
+    
+    .footer{
+        margin-top: 3%;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    .footer img{
+        padding: 5% 5% 5% 0%;    
+    }
+    .footer-left-side{
+        width : 60%;
+    }
+    .company-address{   
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        min-width: fit-content;
+    }   
+    
+    .footer-right-side{
+        width: 40%;
+        flex-direction: column;
+    }
+    
+    .link-container{  
+        justify-content: space-between; 
+        padding: 5%;
+    }
+    .link{
+        box-sizing: content-box;
+        padding: 2%;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        color : #6B708D;
+        min-width: fit-content;
+    }
+    
+    
 }
 
 @media (min-width:1475px){
@@ -277,20 +447,25 @@ body {
     width: 100%;
 }
 .brands {
-    padding: 0% 0 5% 0;
+    padding: 0% 0% 5% 0%;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .brands img{
-    padding:5%
+    margin-top: 2rem;
+    padding:5%;
+    max-width: 20%;
+    filter: grayscale(100%);
 }
 
-.projects-tittle{
-    margin : 0 25% 0 25% 0;
+.projects-title{
+    text-align: center;
+    margin : 8%;
+    font-size: 1.7rem;
 }
 
 .projects-article {
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-bottom: 10%;
     padding-bottom: 5%;
@@ -304,14 +479,14 @@ body {
 
 .projects-article img{
     width:100%;
-    height: 18rem;
-    margin-bottom: 2rem;
+    height: 12rem;
+    margin-bottom: 1rem;
 }
 
 .projects-article p {
     width: 90%;
     margin-top: 0%;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     margin-left: 5%;
 }
 
@@ -371,22 +546,24 @@ body {
 }
 .name{
     color: #43d2ff;  
-    font-size: 0.9rem;;  
+    font-size: 0.5rem;;  
 }
 .brand{
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 .services-tittle{
-    margin : 0 25% 0 25% 0;
+    margin : 8% 25% 8% 25%;
+    font-size: 1.7rem;
 }
 
 .services-container{
     width: 60%;
     margin: auto;
-    margin-bottom: 10%;
-    padding-bottom: 5%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1% 5% 4% 5%;
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -403,12 +580,13 @@ body {
     width: 90%;
     margin-bottom: 7%;
     margin-left: 5%;
+    font-size: 1.2rem;
 }
 
 .services-container p {
     width: 90%;
     margin-top: 0%;
-    margin-bottom: 15%;
+    margin-bottom: 6%;
     margin-left: 5%;
 }
 
@@ -422,24 +600,34 @@ body {
     text-align: center;
     padding: 6%;
 }
+.questions h4{
+    font-size: 1.2rem;
+}
 .questions p{
     margin: 3%; 
     text-decoration: none;
     font-size: 0.8rem;
     color: black;
 }
-.questions img{
-    width: 30%;
-}
-.questions input{
-    border: 0px solid;
-    height: 100%;
-}
 .input-wrapper{
     position: relative;
     height: 2.5rem;
 }
+.questions img{
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    pointer-events: none;   
+}
+.questions-input{
+    width: max-content;
+    padding-left: 30px;
+    box-sizing: content-box;
+    border: 0px solid;
+    height: 100%;
+}
+
 .footer{
+    margin-top: 3%;
     justify-content: space-between;
     align-items: center;   
 }
@@ -447,7 +635,7 @@ body {
     padding: 5% 5% 5% 0%;    
 }
 .footer-left-side{
-    width : 50%;
+    width : 60%;
 }
 .company-address{   
     font-family: 'Roboto', sans-serif;
