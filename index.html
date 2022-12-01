@@ -10,8 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="./burgerstyle.css" rel="stylesheet" type="text/css" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link href="./font&colors.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="./js/index.js"></script> -->
     <title>Homepage</title>
   </head>
   <body>
@@ -21,15 +23,40 @@
           <img src="images/logos/circle.svg" alt="logoCircle" />
         </div>
         <div class="menu flex" style="cursor: pointer">
-          <a href="#" class="color6">Home</a>
-          <a href="#" class="color6">Projects</a>
-          <a href="#" class="color6">Services</a>
+          <a href="#home" class="color6">Home</a>
+          <a href="#projects" class="color6">Projects</a>
+          <a href="#services" class="color6">Services</a>
         </div>
         <div class="buttonContact caption2 buttonBlue flex " style="cursor: pointer">Contact Us</div>
       </div>
     </header>
+    <div id="headerBurger">
+      <div class="headerBurgerItems flex">
+        <nav id="navBurger" style="cursor: pointer">
+          <ul class="nav-menu" style="cursor: pointer">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </div>
     <main>
-      <section class="section1 margin-index">
+      <section class="section1" id="home">
         <div class="home flex">
           <h1>Empower Your Business With Stunning Design!</h1>
           <p>
@@ -106,10 +133,8 @@
           <h4>Vectorify</h4>
           <p>User Experience Design</p>
           <a class="learn-more" href="#">Learn more</a>
-        </article> -->
+        </article> --> -->
       </section>
-      -->
-
       <section class="reviews flex">
         <div class="reviews-container flex">
           <img
@@ -123,7 +148,7 @@
           />
         </div>
 
-        <div class="reviews-container flex">
+        <div class="reviews-center-container">
           <q>
             Circle helped us through every stage of our startup. We really
             enjoyed working with you
@@ -144,6 +169,7 @@
               <p class="name">Kristin Watson</p>
               <p class="brand">Booking.com</p>
             </div>
+            
           </div>
 
           <img
@@ -153,7 +179,7 @@
         </div>
       </section>
 
-      <h3 class="services-tittle margin-index">Our Services</h3>
+      <h3 class="services-tittle margin-index" id="services">Our Services</h3>
       <section class="services margin-index">
         <article class="services-container">
           <div  class="services-container-img">
@@ -194,13 +220,13 @@
           <h4>Do you have any questions?</h4>
           <p>Les us help you!</p>
           <div class = "input-wrapper">
-          <input
-            type="email"
-            id="email"
-            placeholder="Enter your mail"
-            required
-          />
-          <button class="buttonBlue">Subscribe</button>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your mail"
+              required
+            />
+            <button class="buttonBlue">Subscribe</button>
         </div>      
       </section>
     </main>
@@ -229,5 +255,8 @@
       </div>
     </footer>
     <script src="./js/index.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/index.js"></script>
   </body>
+
 </html>
