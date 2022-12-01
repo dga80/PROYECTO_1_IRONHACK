@@ -13,7 +13,6 @@
     <link href="./burgerstyle.css" rel="stylesheet" type="text/css" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link href="./font&colors.css" rel="stylesheet" type="text/css" />
-    <!-- <script src="./js/index.js"></script> -->
     <title>Homepage</title>
   </head>
   <body>
@@ -24,13 +23,16 @@
         </div>
         <div class="menu flex" style="cursor: pointer">
           <a href="#home" class="color6">Home</a>
-          <a href="#projects" class="color6">Projects</a>
+          <a href="#projectsAnchor" class="color6">Projects</a>
           <a href="#services" class="color6">Services</a>
         </div>
-        <div class="buttonContact caption2 buttonBlue flex " style="cursor: pointer">Contact Us</div>
+        <div>
+          <a href="/form.html" class="hoverable buttonContact caption2 buttonBlue flex" style="cursor: pointer">Contact Us</a>
+        </div>
       </div>
     </header>
     <div id="headerBurger">
+      <img src="images/logos/circle.svg" class="logoBurger" alt="logoCircle" />
       <div class="headerBurgerItems flex">
         <nav id="navBurger" style="cursor: pointer">
           <ul class="nav-menu" style="cursor: pointer">
@@ -105,7 +107,7 @@
         <img src="./images/logos/amazon-logo.svg" alt="Amazon logo" />
       </section>
 
-      <h3 class="projects-title">Recent Projects</h3>
+      <h3 class="projects-title margin-index" id="projectsAnchor">Recent Projects</h3>
       <section id="proyectsID" class="projects margin-index">
         <!-- <article class="projects-article">
           <img

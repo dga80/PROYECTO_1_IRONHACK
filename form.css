@@ -15,18 +15,23 @@
   
   .contain {
     margin: 3% 7.5% 3% 7.5%;
-    padding: 1em;
   }
-  .contain h2 {
-    margin-bottom: 70px;
-  }
+ 
   .contain p {
     line-height: 2.5rem;
   }
-  @media (min-width: 768px) {
+
+  @media (max-width: 768px) {
+
     .contain {
+      margin: 3% 7.5% 3% 7.5%;
       padding: 0;
     }
+    .contain h2 {
+      margin-top: 20vw;
+      margin-bottom: 70px;
+    }
+  
   }
   
   input,

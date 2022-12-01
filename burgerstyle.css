@@ -24,13 +24,19 @@ li{
   color: #a1a5b7;
 }
 #headerBurger{
+  position: relative;
   background-color: #6B708D;
 }
 .headerBurgerItems{
   justify-content: flex-end;
 }
 .logoBurger{
+  position: absolute;
+  top: 25px;
+  height: 25px;
+  margin-left: 7vw;
   justify-content: flex-start;
+
 }
 .bar{
   display: block;
@@ -104,7 +110,7 @@ li{
   .logo{
       height: 21px;
       align-items: center;
-      padding: 9px 0 0 0;
+      padding: 0px 0 0 0;
   }
   .buttonContact{
       align-items: center;
@@ -138,7 +144,7 @@ li{
   .logo{
       height: 21px;
       align-items: center;
-      padding: 9px 0 0 0;
+      padding: 0px 0 0 0;
   }
   .buttonContact{
       align-items: center;
