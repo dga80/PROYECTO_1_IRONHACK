@@ -256,6 +256,11 @@ body {
     .card1{
         left: 18px;
     }
+    .brands {       
+        padding: 5% 0 5% 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }
 
 
@@ -266,7 +271,7 @@ body {
     padding: 5% 0 5% 0;
     flex-wrap: wrap;
     justify-content: space-around;
-    }
+}
 .brands img{
     padding:5%
 }
@@ -314,8 +319,8 @@ body {
     padding: 3%;
 }
 .reviews img{
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
  }
  
 .reviews-container{     
