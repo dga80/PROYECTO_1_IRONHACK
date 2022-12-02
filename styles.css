@@ -5,7 +5,7 @@ a {
     all: unset;
 }
 a:hover {
-    color:#072AC8;
+    color:#9badff;
   }
 
 .hoverable a:hover{
@@ -20,11 +20,10 @@ a:hover {
 }
 
 .getinTouch:hover{
-    color: white;
-    background-color: #0757c8;
+    color: #8abbff;
 }
 .seeourWork:hover {
-    color: #292E47;
+    color: #8abbff;
   }
 .header{
     justify-content: center;
@@ -76,10 +75,8 @@ body {
     left: 45%;
     top:60%;
 }
-.buttonContact :hover{
-    color: white;
-    background-color: #0757c8;
-}
+
+
 .head-1{
     margin-top: 20vw;
 }
@@ -100,6 +97,9 @@ body {
     width: 35vw;
     min-width: fit-content;
 }
+.text_container img{
+    max-height: 100px;
+}
 .text_container h5 {
     left: 0vw;
     font-size: 1rem;
@@ -108,8 +108,11 @@ body {
     margin-top: -1vh;
 }
 .recent {
-    margin-left: 7.1vw;
-    margin-top: 7vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 1.6rem;
+    color: #292E47;
 }
 
 .head-1 img{
@@ -389,7 +392,7 @@ body {
         top: 0; 
         width: 85%; 
         z-index: 100;
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
         justify-content: space-between;
     }
     .menu{
@@ -399,11 +402,16 @@ body {
     }
     .logo{
         height: 21px;
-        align-items: center;
-        padding: 0px 0 0px 0;
+        align-items: center;        
     }
     .buttonContact{
         align-items: center;
+    }
+    .hero{ 
+        padding-top: 2%;
+    }
+    .heroComposition{
+        padding-top: 2%;
     }
     .projects{
         display: flex;
@@ -448,6 +456,7 @@ body {
         width: 25%;
     }
     .section1 {
+        margin-top: 10vh;
         display: flex;
         width: auto;
         height: 70vh;
@@ -579,7 +588,7 @@ body {
         display: flex;
         align-items: center;
         width: auto;
-        height: 75vh;
+        height: 82vh;
         margin-bottom: 30px;
     }
     .heroComposition{
@@ -829,8 +838,3 @@ body {
         padding: 0px 0 0px 0;
     }
 }
-
-
-
-
-
