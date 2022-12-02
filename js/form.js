@@ -8,5 +8,6 @@ function validateForm() {
         alert("You cannot be Ironhack, because I am Ironhack");
         return false;
     }
+    return true
 }
 
