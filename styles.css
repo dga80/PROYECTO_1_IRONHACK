@@ -168,6 +168,10 @@ body {
     margin-left: 5%;
 }
 
+.learn-more {
+    cursor: pointer;
+}
+
 .reviews{
     justify-content: space-around;
     text-align: center;   
