@@ -30,6 +30,7 @@ async function loadProjectPage(uuid) {
       <p><b>Completed on</b> ${filteredProject[0].completed_on}</p>
     </div>
     <img
+      class="project-img1"
       src="${filteredProject[0].image}"
       alt="Project${filteredProject[0].uuid}-background-image"
     />
