@@ -647,8 +647,13 @@ body {
         display: flex;
         gap: 2.5rem;
         justify-content: space-around;
-        border: 5px solid blue;
-     }
+    }
+    .projects1 {
+        margin: 0% 7.5% 0% 7.5%;;
+        display: flex;
+        gap: 2.5rem;
+        justify-content: space-around;
+    }
     .projects-article {
         width: 25%;
         margin-bottom: 3%;
