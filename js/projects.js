@@ -18,9 +18,9 @@ async function loadProjectPage(uuid) {
         }
         return false;
     }); 
-    // if (filteredProject.length === 0) {
-    //   window.location.replace("./404.html");
-    // }
+    if (filteredProject.length === 0) {
+      window.location.replace("./404.html");
+    }
     const divProjectOpen = document.getElementById("projectOpenID")
     
     const divProject = `
