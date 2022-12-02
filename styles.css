@@ -4,7 +4,7 @@ a {
     all: unset;
 }
 a:hover {
-    color:#072AC8;
+    color:#9badff;
   }
 
 .hoverable a:hover{
@@ -19,11 +19,10 @@ a:hover {
 }
 
 .getinTouch:hover{
-    color: white;
-    background-color: #0757c8;
+    color: #8abbff;
 }
 .seeourWork:hover {
-    color: #292E47;
+    color: #8abbff;
   }
 .header{
     justify-content: center;
@@ -76,10 +75,8 @@ body {
     left: 45%;
     top:60%;
 }
-.buttonContact :hover{
-    color: white;
-    background-color: #0757c8;
-}
+
+
 .head-1{
     margin-top: 20vw;
 }
@@ -394,6 +391,7 @@ body {
     .buttonContact{
         align-items: center;
     }
+  
     .projects{
         display: flex;
         gap: 2rem;
