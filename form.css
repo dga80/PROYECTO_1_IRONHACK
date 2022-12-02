@@ -28,9 +28,16 @@
       padding: 0;
     }
     .contain h2 {
-      margin-top: 20vw;
-      margin-bottom: 70px;
+      margin-top: 25vw;
+      margin-bottom: 50px;
     }
+    .nav-menu{
+      background-color: #0757c8;
+      position: fixed;
+      top: 0; 
+      width: 85%; 
+      z-index: 1000;
+  }
   
   }
   
@@ -71,3 +78,13 @@
   button:hover {
     background:#072ac8d9;
   }
+      .navbar{
+        overflow: hidden;
+        background-color: #F2F4FC;        
+        position: fixed;
+        top: 0; 
+        width: 85%; 
+        z-index: 100;
+        padding: 0;
+        justify-content: space-between;
+    }
