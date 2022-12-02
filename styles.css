@@ -89,6 +89,9 @@ body {
 .head-1 h5 {
     margin-bottom: 2vh;
 }
+.head-1 p{
+    text-align:justify;
+}
 .head-1 img {
     width: auto;
     height: 50vh;
@@ -100,9 +103,7 @@ body {
     width: 35vw;
     min-width: fit-content;
 }
-.text_container img{
-    max-height: 100px;
-}
+
 .text_container h5 {
     left: 0vw;
     font-size: 1rem;
@@ -527,6 +528,7 @@ body {
         padding: 0 10% 0 10%;
         justify-content: space-between;
     }
+    
     .head-1 h3 {
         margin-bottom: 3vh;
     }
@@ -534,7 +536,7 @@ body {
         margin-bottom: 2vh;
     }
     .head-1 img {
-        width: auto;
+        width: 100%;
         height: 50vh;
         margin-top: 7vh;
         margin-bottom: 6vh;
@@ -565,7 +567,7 @@ body {
         padding: 0px 0 0px 0;
     }
     .head-1{
-        margin-top: 2vw;
+        margin-top: 7%;
     }
     .burgerHeader{
         display: none;
@@ -639,10 +641,12 @@ body {
         color: #292E47;
     }
     .projects{
+        margin: 0% 7.5% 0% 7.5%;;
         display: flex;
         gap: 2.5rem;
         justify-content: space-around;
-    }
+        border: 5px solid blue;
+     }
     .projects-article {
         width: 25%;
         margin-bottom: 3%;

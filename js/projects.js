@@ -24,7 +24,7 @@ async function loadProjectPage(uuid) {
     const divProjectOpen = document.getElementById("projectOpenID")
     
     const divProject = `
-    <h3>${filteredProject[0].name}</h3>
+    <h3 class = "project-title1">${filteredProject[0].name}</h3>
     <div class="text_container flex">
       <h5>${filteredProject[0].description}</h5>
       <p><b>Completed on</b> ${filteredProject[0].completed_on}</p>
